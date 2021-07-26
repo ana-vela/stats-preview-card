@@ -1,0 +1,16 @@
+html {
+    background-color: rgb(166, 166, 221);
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    margin: 200px;
+}
