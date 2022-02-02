@@ -13,4 +13,25 @@ p {
 .container {
     display: flex;
     margin: 200px;
+    border-style: solid; 
+}
+
+.container-text {
+   font-size: 20px;
+   /* min-width: 400px; */
+}
+
+ .image-change  {
+ 
+    height: 100%;
+    width: auto;
+    background: green;
+    /* background: hsla(277, 99%, 29%, 0.572) */
+    background-blend-mode: overlay;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* opacity: .9; */
+    /* min-width: 
+    300px; */
 }
