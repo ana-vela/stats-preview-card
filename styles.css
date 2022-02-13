@@ -1,5 +1,6 @@
 html {
     background-color: rgb(166, 166, 221);
+    color: white;
 }
 
 h1 {
@@ -18,20 +19,39 @@ p {
 
 .container-text {
    font-size: 20px;
+   background-color: #1C1938;
+   flex-grow: 1;
    /* min-width: 400px; */
 }
 
+.container-image {
+    color: #9F56CC;
+}
  .image-change  {
+     flex-grow: 1;
  
-    height: 100%;
-    width: auto;
-    background: green;
-    /* background: hsla(277, 99%, 29%, 0.572) */
+    height:540px;
+    
+    width: 540px;
+    /* background: #9F56CC; */
+    /* mix-blend-mode: color-burn; */
+    background: url('../images/image-header-desktop.jpg');
+    background-size: cover;
+    /* background-color: rgb(83, 33, 99); */
+        /* background-color: rgb(102, 57, 102); */
+        background-color: rgba(82, 39, 103, 0.921);
+
+
+    /* background-blend-mode: overlay; */
+    background-position: center;
+    position: relative;
+
+    /* background: hsla(277, 99%, 29%, 0.572); */
     background-blend-mode: overlay;
-    /* background-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-position: center; */
-    /* opacity: .9; */
+    background-position: center; 
+    opacity: .9;
     /* min-width: 
     300px; */
 }
