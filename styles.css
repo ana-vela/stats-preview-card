@@ -1,6 +1,7 @@
 html {
-    background-color: rgb(166, 166, 221);
-    color: white;
+    background-color: #0A0C1B;
+    /* background-color: rgb(166, 166, 221); */
+    /* color: #0A0C1B; */
 }
 
 h1 {
@@ -21,6 +22,9 @@ p {
    font-size: 20px;
    background-color: #1C1938;
    flex-grow: 1;
+   color: white;
+   padding: 40px 60px 40px 60px;
+
    /* min-width: 400px; */
 }
 
@@ -41,7 +45,6 @@ p {
         /* background-color: rgb(102, 57, 102); */
         background-color: rgba(82, 39, 103, 0.921);
 
-
     /* background-blend-mode: overlay; */
     background-position: center;
     position: relative;
@@ -54,4 +57,13 @@ p {
     opacity: .9;
     /* min-width: 
     300px; */
+}
+
+.highlight {
+    color: #7F4FA2;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
 }
