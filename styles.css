@@ -1,8 +1,6 @@
 html {
   background-color: hsl(233, 47%, 7%);
   margin: auto;
-  /* background-color: rgb(166, 166, 221); */
-  /* color: #0A0C1B; */
 }
 
 h1 {
@@ -13,14 +11,16 @@ h1 {
 
 h2 {
   font-size: 26px;
-  color: hsla(0, 0%, 100%, 0.6);
-  font-family: "Inter", sans-serif;
+  margin-bottom: -10px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Lexend Deca", sans-serif;
 }
 
 p {
   line-height: 1.6;
   font-size: 15px;
-  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  color: #b6b4ce;
   font-family: "Inter", sans-serif;
 
   /* font-family: "Lexend Deca", sans-serif; */
@@ -28,7 +28,7 @@ p {
 
 .container {
   display: flex;
-  margin: 220px 170px 200px 170px;
+  margin: 220px 180px 200px 170px;
   border-style: solid;
 }
 
@@ -71,7 +71,8 @@ p {
 
 .stats {
   display: flex;
-  margin-top: 20px;
+  margin-right: 30px;
+  padding-top: 36px;
   flex-direction: row;
   justify-content: space-between;
 }
