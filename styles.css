@@ -18,9 +18,12 @@ h2 {
 }
 
 p {
+  line-height: 1.6;
   font-size: 15px;
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Inter", sans-serif;
+
+  /* font-family: "Lexend Deca", sans-serif; */
 }
 
 .container {
@@ -34,7 +37,7 @@ p {
   background-color: hsl(244, 38%, 16%);
   flex-grow: 1;
   color: white;
-  padding: 40px 70px 40px 80px;
+  padding: 40px 100px 40px 80px;
 }
 
 .container-image {
@@ -51,17 +54,13 @@ p {
   /* background-color: rgb(83, 33, 99); */
   /* background-color: rgb(102, 57, 102); */
   background-color: rgba(82, 39, 103, 0.921);
-
-  /* background-blend-mode: overlay; */
   background-position: center;
   position: relative;
-
   /* background: hsla(277, 99%, 29%, 0.572); */
   background-blend-mode: overlay;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.9;
+  opacity: 0.99;
   /* min-width: 
     300px; */
 }
@@ -72,6 +71,7 @@ p {
 
 .stats {
   display: flex;
+  margin-top: 20px;
   flex-direction: row;
   justify-content: space-between;
 }
