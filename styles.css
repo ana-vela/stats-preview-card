@@ -22,14 +22,13 @@ p {
   font-weight: 400;
   color: #b6b4ce;
   font-family: "Inter", sans-serif;
-
-  /* font-family: "Lexend Deca", sans-serif; */
 }
 
 .container {
   display: flex;
-  margin: 220px 180px 200px 170px;
-  border-style: solid;
+  margin: 220px 170px 200px 170px;
+  border-style: solid white;
+  border-radius: 20px;
 }
 
 .container-text {
@@ -38,31 +37,23 @@ p {
   flex-grow: 1;
   color: white;
   padding: 40px 100px 40px 80px;
+  min-width: 350px;
 }
 
 .container-image {
-  color: #9f56cc;
-}
-.image-change {
   flex-grow: 1;
   height: 440px;
   width: 550px;
-  /* background: #9F56CC; */
-  /* mix-blend-mode: color-burn; */
   background: url("../images/image-header-desktop.jpg");
+  position: relative;
   background-size: cover;
-  /* background-color: rgb(83, 33, 99); */
-  /* background-color: rgb(102, 57, 102); */
   background-color: rgba(82, 39, 103, 0.921);
   background-position: center;
-  position: relative;
-  /* background: hsla(277, 99%, 29%, 0.572); */
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.99;
-  /* min-width: 
-    300px; */
+  min-width: 400px;
 }
 
 .highlight {
@@ -71,8 +62,18 @@ p {
 
 .stats {
   display: flex;
-  margin-right: 30px;
-  padding-top: 36px;
+  margin-right: 20px;
+  /* padding-top: 10px; */
   flex-direction: row;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 695px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .stats {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
