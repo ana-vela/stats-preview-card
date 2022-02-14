@@ -1,6 +1,9 @@
 html {
   background-color: hsl(233, 47%, 7%);
   margin: auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
 h1 {
@@ -26,6 +29,7 @@ p {
 
 .container {
   display: flex;
+  flex-wrap: column wrap;
   margin: 220px 170px 200px 170px;
   border-style: solid white;
   border-radius: 20px;
@@ -37,13 +41,17 @@ p {
   flex-grow: 1;
   color: white;
   padding: 40px 100px 40px 80px;
-  min-width: 350px;
+  min-width: 250px;
+  max-width: 350px;
 }
 
 .container-image {
   flex-grow: 1;
+  flex-wrap: wrap;
+
   height: 440px;
-  width: 550px;
+  width: 500px;
+  min-width: 350px;
   background: url("../images/image-header-desktop.jpg");
   position: relative;
   background-size: cover;
@@ -53,7 +61,6 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.99;
-  min-width: 400px;
 }
 
 .highlight {
@@ -68,7 +75,14 @@ p {
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 695px) {
+
+/* @media only screen and (max-width: 900px) {
+
+.container {
+    margin: 150px;
+} */
+
+@media only screen and (max-width: 1095px) {
   .container {
     flex-direction: column-reverse;
   }
