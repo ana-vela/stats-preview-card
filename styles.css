@@ -54,7 +54,7 @@ p {
 	width: 100%;
 	min-width: 520px;
 	max-width: 740px;
-	background: url("./images/image-header-desktop.jpg");
+	background: url("images/image-header-desktop.jpg");
 	position: relative;
 	background-size: cover;
 	background-color: rgba(82, 39, 103, 0.921);
@@ -78,10 +78,12 @@ p {
 }
 
 @media only screen and (max-width: 1095px) {
+
 	.container {
-		padding: 0;
+		padding: 100px 200px;
 		width: 375px;
 		flex-direction: column-reverse;
+
 	}
 	.container-text {
 		padding: 30px;
