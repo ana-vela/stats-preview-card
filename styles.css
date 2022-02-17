@@ -33,7 +33,6 @@ p {
 	/* width: 100%; */
 	/* max-width: 600px; */
 	margin: 218px 160px 200px 160px;
-	border-radius: 20px;
     /* justify-content: center; */
 }
 
@@ -45,6 +44,7 @@ p {
 	padding: 40px 100px 40px 80px;
 	min-width: 380px;
 	max-width: 520px;
+    border-radius: 20px 0 0 20px;
 }
 
 .container-image {
@@ -63,6 +63,7 @@ p {
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0.99;
+    border-radius: 0 20px 20px 0;
 }
 
 .highlight {
@@ -89,6 +90,7 @@ p {
 		padding: 30px;
 		min-width: 315px;
 		text-align: center;
+        border-radius: 0 0 10px 10px;
 	}
 	h1 {
 		font-size: 22px;
@@ -97,6 +99,7 @@ p {
 	.container-image {
 		min-width: 375px;
 		max-height: 240px;
+        border-radius: 10px 10px 0 0;
 	}
 
 	.stats {
