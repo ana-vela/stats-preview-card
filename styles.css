@@ -1,9 +1,7 @@
 html {
 	background-color: hsl(233, 47%, 7%);
-	margin: auto;
-	height: 100%;
-	width: 100%;
 	display: flex;
+	justify-content: center;
 }
 
 h1 {
@@ -30,10 +28,8 @@ p {
 .container {
 	display: flex;
 	flex-wrap: column wrap;
-	/* width: 100%; */
-	/* max-width: 600px; */
-	margin: 218px 160px 200px 160px;
-	/* justify-content: center; */
+	margin: 180px auto 200px auto;
+	justify-content: center;
 }
 
 .container-text {
@@ -43,7 +39,7 @@ p {
 	color: white;
 	padding: 40px 100px 40px 80px;
 	min-width: 380px;
-	max-width: 520px;
+	max-width: 400px;
 	border-radius: 20px 0 0 20px;
 }
 
@@ -58,10 +54,9 @@ p {
 	position: relative;
 	background-size: cover;
 	background-color: rgba(82, 39, 103, 0.921);
-	background-position: center;
-	background-blend-mode: overlay;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-blend-mode: overlay;
 	opacity: 0.99;
 	border-radius: 0 20px 20px 0;
 }
@@ -81,8 +76,6 @@ p {
 .attribution {
 	color: white;
 	font-size: 18px;
-    /* display: flex; */
-    /* flex-direction: column; */
 	text-align: center;
 	align-items: center;
 }
