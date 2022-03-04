@@ -24,7 +24,9 @@ p {
 	color: #b6b4ce;
 	font-family: "Inter", sans-serif;
 }
-
+.description {
+	text-transform: uppercase;
+}
 .container {
 	display: flex;
 	margin: 180px auto 200px auto;
